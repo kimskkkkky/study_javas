@@ -1,8 +1,8 @@
 public class MakingGameOneHand {
     public static void main(String[] args) {
-        String A = "";
-        String B = "";
-        String C = "";
+        String A = "0";
+        String B = "0";
+        String C = "0";
         System.out.println(A);
         System.out.println(B);
         System.out.println(C);
@@ -12,17 +12,17 @@ public class MakingGameOneHand {
         System.out.println(B);
         System.out.println(C);
         B = "2";
-        C = "";
+        C = "0";
         System.out.println(A);
         System.out.println(B);
         System.out.println(C);
-        A = "";
+        A = "0";
         C = "1";
         System.out.println(A);
         System.out.println(B);
         System.out.println(C);
         A = "2";
-        B = "";
+        B = "0";
         System.out.println(A);
         System.out.println(B);
         System.out.println(C);

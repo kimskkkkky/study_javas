@@ -28,7 +28,6 @@ public class Ifs {
         // 위와 같이 if를 3개 넣어주면 오후입니다 와 밤입니다라는 두개의 답이 나오기 때문에 잘못된 질문이다.
 
 
-        int time =15;
         if (time < 12) {
             System.out.println("오전입니다.");
         } else if (time < 18) {

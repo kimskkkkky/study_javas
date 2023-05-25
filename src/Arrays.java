@@ -16,13 +16,13 @@ public class Arrays {
      
         String[][] numbers = {
                             {"10"}, 
-                            {"50","60","70"},
+                            {"(3) 김하늘. (1) 60. (2) 70."},
                             {"100"},
                             {"110","120","130"},
                             {"500"}
                             };
                             // [][] 는 row가 2개이상이라는 뜻, 데이터도 {{},{}} 넣어줘야 함.
-            for (int second = 0; numbers.length >= second; second = second+1) {
+            for (int second = 0; numbers.length > second; second = second+1) {
                 // 첫번째 for문은 {},{} row가 출력됨
                 for (int third = 0; numbers[second].length > third; third = third+1) {
                     // 두번째 for문에서 row안에 컬럼의 데이터들이 출력 되기 시작

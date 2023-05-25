@@ -9,9 +9,13 @@ public class Scanners {
         // System.out.println("Username is: " + userName); // Output user input
 
         int first = 0;
-        int second = 0;
         first = myObj.nextInt();
-        second = myObj.nextInt();
-        System.out.println(first+second);
-    }
+        int second = myObj.nextInt();
+        System.out.println(first + second);
+
+        String third = myObj.nextLine();
+        String four = "김하늘";
+        four = myObj.nextLine();
+        System.out.println(third + four);
+}
 }

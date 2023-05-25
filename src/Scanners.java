@@ -10,8 +10,8 @@ public class Scanners {
 
         int first = 0;
         int second = 0;
-        int first = myObj.nextInt();
-        int second = myObj.nextInt();
+        first = myObj.nextInt();
+        second = myObj.nextInt();
         System.out.println(first+second);
     }
 }

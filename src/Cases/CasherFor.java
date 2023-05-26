@@ -18,7 +18,7 @@ public class CasherFor {
                 if (amount == 0) {
                     break;
                 }
-                if (amount > 0 && amount < 100) {
+                if (amount > 0 && amount <= 100) {
                     cash[mart] = amount; // 유효한 값인 경우에만 배열에 할당
                 } else {
                     cash[mart] = 0; // 100 이상이거나 0인 경우에는 0으로 할당

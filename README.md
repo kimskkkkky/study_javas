@@ -6,6 +6,8 @@
 | 제목 | 작성소스 | 설명 | 비고 |
 | --- | --- | --- | --- |
 | Print | Main.java | 화면에 문자 출력 |    |
-| if문 | ifs.java | 조건문 |    |
+| if | [ifs.java](./src/Ifs.java) | 조건에 따라 분기 |    |
 | 데이터 타입 변환 | [Typecasting.java](https://github.com/kimskkkkky/study_javas/blob/master/src/TypeCasting.java) | 데이터 타입을 변경 | --- |
+| --- | --- | --- | --- |
+
 ## JAVA 연습문제

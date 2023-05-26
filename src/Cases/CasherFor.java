@@ -6,7 +6,7 @@ public class CasherFor {
         // 100원 이하로 입력 제한, 이상 입력시 0원 적용 = if
         // 입력 중 0원이 입력되면 입력되었던 값 합산 = 계산 종료 = break
         try {
-            int total = 0;
+            System.out.println("장바구니엔 5개를 넣음");
             System.out.println("-----계산 시작-----");
             int[] cash = new int[5];
             for (int mart = 0; mart < cash.length; mart = mart +1){

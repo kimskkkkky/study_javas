@@ -10,7 +10,7 @@ public class pollsWithoutMethod {
         System.out.println("이름을 입력하세요.");
         String name = my.nextLine();
         System.out.println(name);
-        String[] answers = new String[4];
+        String[] answers = {"","","",""};
         String[][] numbers = {
                 { "1. 교수는 수업 전 강의 목표를 명확히 제시하였습니까?" },
                 { "(1)전혀 아니다. (2)아니다. (3)그렇다. (4)매우그렇다." },

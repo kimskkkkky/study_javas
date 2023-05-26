@@ -25,6 +25,7 @@ public class CasherFor {
         System.out.println("------담은 총합------");
         System.out.println(cash[0]+cash[1]+cash[2]+cash[3]+cash[4]);
         System.out.println("------계산 종료------");
+        // 복습 필수
 
         } catch (Exception e) {
 

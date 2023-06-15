@@ -28,11 +28,11 @@ public class SurveysAPP {
             ResultSet resultSet = statement.executeQuery(queryA);
             while (resultSet.next()) {
                 System.out.println("-- 총 설문자" + resultSet.getString("CNT"));
-            }
 
-        } catch (Exception e) {
+             }
+
+            }catch (Exception e) {
             // TODO: handle exception
-        }
+        }    
     }
-    
 }

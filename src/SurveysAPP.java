@@ -18,10 +18,16 @@ public class SurveysAPP {
 
             // - query Edit
             Statement statement = connection.createStatement();
-            String query = "SELECT * FROM factorys";
-            ResultSet resultSet = statement.executeQuery(query);
+
+            System.out.println("-----통계-----");
+            // -- 총 설문자 3명
+            String queryA = "SELECT count(*) AS CNT\n" + //
+                            "FROM (SELECT RESPONDENTS_ID, count(*)\n" + //
+                            "FROM statistics\n" + //
+                            "GROUP BY RESPONDENTS_ID) AS T_STATIC\n";
+            ResultSet resultSet = statement.executeQuery(queryA);
             while (resultSet.next()) {
-                System.out.println(resultSet.getString("COMPANY_ID") + resultSet.getString("COMPANY"));
+                System.out.println("-- 총 설문자" + resultSet.getString("CNT"));
             }
 
         } catch (Exception e) {

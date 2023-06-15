@@ -49,7 +49,6 @@ public class SurveysAPP {
                         "INNER JOIN choice AS T_CHO\n" + //
                         "ON T_QUES.CHOICE_ID = T_CHO.CHOICE_ID\n" + //
                         "AND QUESTIONS_ID = 'Q1' \n";
-                        
                 ResultSet resultSet_second = statement_second.executeQuery(queryA);
                 int number_second = 1;
                 while (resultSet_second.next()) {

@@ -15,8 +15,7 @@ public class Statistics {
                             "GROUP BY RESPONDENTS_ID) AS T_STATIC\n";
             ResultSet resultSet = statement.executeQuery(queryA);
             while (resultSet.next()) {
-             
-                System.out.println("-- 총 설문자" + resultSet.getString("CNT"));
+                System.out.println("-- 총 설문자 : " + resultSet.getString("CNT"));
              }
 
      } catch (Exception e) {

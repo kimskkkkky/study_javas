@@ -21,10 +21,10 @@ public class SurveysAPP {
             // - query Edit
             Statement statement = connection.createStatement();
 
-            //통계 - 총설문자 표시
+            // 통계 - 총 설문자 표시
             Statistics statistics = new Statistics();
-            statistics. getRespondents (statement);
-        }catch (Exception e) {
+            statistics.getRespondents(statement);
+            }catch (Exception e) {
             // TODO: handle exception
         }    
     }

@@ -9,7 +9,7 @@ public class WhileWithScanners {
     public static void main(String[] args) {
         try {
             Scanner myObj = new Scanner(System.in);
-            String answer = ""
+            String answer = "";
             System.out.println("안내입니다.");
             // while을 true일때 루프를 도니까 1이라고 넣어주면 true일때 루프를 못벗어남.
             boolean loops = true;

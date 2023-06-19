@@ -2,19 +2,19 @@ package vehicles;
 
 import java.util.HashMap;
 
-public class Bicycle { //생성자는 클래스이름과 같다. 리턴값이 없다.
-    int price;
+public class Bicycle {
+    int price ;
     String color;
     HashMap<String, Object> spec;
-    public Bicycle(){
-        System.out.println();
+    public Bicycle(){ //생성자는 class이름과 동일해야 되며, retrun값이 없다. 생성자는 자기 자체를 인스턴스화 한다는 역할이 명확하게 있음
+        System.out.println("Bicycle - param empty");
     }
-    public Bicycle(int price, String color){ //인스턴스화 할 때 쓰는 메소드
-        this.price = price;//변수이름만 같지 다름 왼쪽 this 클래스 안에 있는거 가져옴 오른쪽 파라미터로 넘어온 변수
-        this.color = color;//왼쪽은 위에 변수 오쪽은 파라미터로 받아온값 this 연결해줌 this는 이 메소드 안에서만 씀
-    }
-    public String toString(){
+    public Bicycle(int price, String color){ //인스턴스화 시킬때 값 셋팅하여 바로 사용, 인스턴스화 될때 call하는 메서드
+        this.price = price;//this는 변수를 밖에서 선언한것이다.(영역만 선언), 오른쪽 price는 파라미터의(해당영역의) price
+        this.color = color;
+    } 
+    public String toString(){ //메서드 생성
         String str = "price : " + this.price + ", color : " + this.color;
-        return str;//메소드 만드는 단계
-    }   
+        return str; 
+    }
 }

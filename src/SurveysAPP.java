@@ -5,6 +5,8 @@ import java.sql.Statement;
 import java.util.HashMap;
 import java.util.Scanner;
 
+import javax.management.Query;
+
 import commons.Commons;
 import surveys.Statistics;
 
@@ -18,7 +20,7 @@ public class SurveysAPP {
             // - User/password와 접속 IP:port 접속
             String url = "jdbc:mysql://127.0.0.1:3306/db_survey";
             String user = "root";
-            String password = "!yojulab*";
+            String password = "!audrhs7758";
 
             Connection connection = DriverManager.getConnection(url, user, password);
             System.out.println("DB연결 성공\n");

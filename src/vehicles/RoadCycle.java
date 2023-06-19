@@ -11,8 +11,7 @@ public class RoadCycle extends Bicycle {
         this.Modelname = Modelname;
     }
     public String toString(){
-        String str = "price : " + super.price + ", color : " + super.color 
-        + ", Modelname : " + this.Modelname;
+        String str = " Modelname : " + this.Modelname + ", color : " + super.color  + ", price : " + super.price ;
         return str;
     }
 }

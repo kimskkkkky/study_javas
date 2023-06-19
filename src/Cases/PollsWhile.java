@@ -21,6 +21,7 @@ public class PollsWhile {
                 } else { //그외 다른건 모두 설문 종료
                     System.out.println("--------설문 종료--------");
                 }
+                myObj.close();
             }
             
         }catch( Exception e){
@@ -28,6 +29,7 @@ public class PollsWhile {
         }  finally {
             System.out.println();
         }
+        
     }
 }
 

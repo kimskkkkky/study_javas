@@ -17,5 +17,6 @@ public class Scanners {
         String four = "김하늘";
         four = myObj.nextLine();
         System.out.println(third + four);
+        myObj.close();  //scanner반납
 }
 }
